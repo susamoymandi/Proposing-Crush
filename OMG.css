@@ -1,0 +1,47 @@
+body {
+    display: grid;
+    place-items: center;
+    gap: 1.5rem;
+    min-height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle at top left, #ffe2f4 0%, #f891bb 40%, #ff7bb2 100%);
+    color: #000;
+}
+
+img.CAT_ANGRY{
+    width: 200px;
+    max-width: 90vw;
+    height: auto;
+    display: block;
+    /* mix-blend-mode: multiply; */
+}
+
+.btn-row {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+
+.btn1, .teleport-btn {
+    background: #ff69b4;
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.btn1:hover, .teleport-btn:hover {
+    background: #F13E93;
+}
+
+a.btn1 {
+    text-decoration: none;
+}
